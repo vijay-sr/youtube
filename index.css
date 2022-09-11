@@ -1,0 +1,257 @@
+.column{
+    width:72px;
+    height:100%;
+    float: left;   
+    z-index: 2;
+    position: fixed;
+    background-color: white;  
+}
+
+.iconboxmenu{
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    margin-top: 9px;
+    cursor: pointer;  
+}
+
+.iconbox{
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    cursor: pointer;     
+}
+
+.iconbox:hover {
+    background-color: #f2f2f2;
+}
+
+.navbar{
+    width:200px;
+    height: auto;
+}
+
+.Sidenav1{
+    position: absolute;
+    margin-left:-100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .options{
+    text-decoration: none;
+    width: 100px;
+    height: auto;
+  }
+
+  .sidenav.hover{
+    left:0;
+  }
+
+.youtubeicons{   
+    width: 25px;
+    height:25px;
+    margin-left:23px;
+    margin-top:12px ;    
+ }
+
+.header{
+    width:100%;
+    height: 125px;
+    background-color: white;
+    z-index: 1 ;
+    position: fixed;
+    }
+
+.row1{
+    height: 62px;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: rgb(221, 218, 218);   
+}
+
+.logo{
+    width: 100px;
+    height: 62px;
+    margin-left: 72px;   
+    float: left;   
+}
+
+.logoicon{
+    width: 92px;
+    height: 20px;
+    margin-top: 22px;
+    cursor: pointer;   
+}
+
+.parentbar{
+    width: 700px;
+    height: 62px;   
+    margin-left:450px ;  
+    display:inline-block;
+    position: relative; 
+}
+.searchbar{
+    width: 565px;
+    height: 62px;
+    display: inline;   
+    float: left;
+}
+
+.search{
+    width: 565px;
+    height: 40px;
+    margin-top: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding-left: 8px;
+    outline: none;
+    border:1px solid;
+    cursor: text;
+}
+
+.lens{
+    width: 62px;
+    height: 62px;  
+    float: left;
+}
+#searchicon:hover{
+    background-color: #e7e7e7;
+}
+
+.lensmicicon{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-top: 5px;   
+}
+
+.mic{
+    width: 60px;
+    height: 62px;   
+    float: left;   
+}
+
+.notification{
+    width: 400px;
+    height: 62px;
+    float: right;
+}
+
+.notificationdiv{
+    width: 62px; 
+    height:62px; 
+    text-align: center;
+    float: right;
+}
+
+.notibutton{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;   
+}
+
+.notificon{
+    width: 23px;
+    height: 23px;
+    margin: auto;
+    margin-top: 4px;
+    align-items: center;
+    border-radius: 20px;   
+}
+
+.row2{
+    height: 62px;
+    width: 100%;
+    margin-left: 72px;   
+    border-bottom: 1px solid;
+    border-color: #dddada;
+    overflow: auto;   
+}
+
+.para{
+    font-size: 10px;
+    text-align: center;
+    display:block;   
+}
+
+.child{
+    width: auto;
+    height: 35px;
+    border-radius: 20px;
+    background-color:#f2f2f2;
+    /* float: left; */
+    margin: 6px;
+    margin-top: 13px;
+    display: inline-block;
+    cursor: pointer;    
+}
+
+.child:hover{
+    background-color: #e7e7e7;
+}
+
+.row2para{
+    padding:4px ;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+.section{ 
+    width: 100%;
+    height:100%;
+    margin: 0px;
+    position: absolute;   
+}
+
+.row{
+   width: auto;
+   height: 355px;
+   position: relative;
+   padding-left: 100px;   
+} 
+
+.box{
+    width: 335px;
+    height:335px;
+    margin: 10px;
+    text-align: center;
+    float:left;
+    display: inline;
+    background-color: white;
+        
+}
+.box:hover{
+    box-shadow: 10px 5px 20px 8px  rgb(212, 212, 212);
+    z-index: 3;
+    transform: scale(1.25 ,1.25);
+    transition-duration: 0.5s;
+}
+
+.iframe{
+    width:335px ;
+    height: 225px;
+}
+
+.shortbox{
+    width:242px ;
+    height: 330px;
+    display: inline-block;
+    margin-left: 10px;
+     
+}
+
+.shortbox:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+
